@@ -24,6 +24,7 @@
     source ~/env/bigchaindb/bin/activate
     # install
     pip install -U bigchaindb=={{ bigchaindb_version }}
+    pip install greenlet==0.4.16 # https://stackoverflow.com/a/64110334
     deactivate
     EOF
   become: yes

@@ -1,6 +1,6 @@
 ---
 # Python variables
-python_version_suffix: "3.6"
+python_version_suffix: "3.8"
 python_deb_package_name: "python{{ python_version_suffix }}"
 python_pip_deb_package_name: "python3-pip"
 python_venv_deb_package_name: "python{{ python_version_suffix }}-venv"
@@ -11,7 +11,7 @@ tendermint_user: "tendermint"
 
 # Mongdb
 mongodb_deb_package_name: "mongodb-org"
-mongodb_version: "3.6"
+mongodb_version: "5.0"
 
 # Golang
 go_deb_package_name: "golang"
@@ -23,7 +23,7 @@ tendermint_connect_nodes: true  # connect nodes into network
 tendermint_chain_id: "generate"
 
 # Bigchaindb
-bigchaindb_version: "v2.0.0"
+bigchaindb_version: "2.2.2"
 bigchaindb_log_folder: "/var/log"
 
 # Nginx

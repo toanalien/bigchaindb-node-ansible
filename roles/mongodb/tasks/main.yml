@@ -9,7 +9,7 @@
   shell: |
     PACK={{ mongodb_deb_package_name }}
     VER={{ mongodb_version }}
-    echo deb http://repo.mongodb.org/apt/ubuntu xenial/$PACK/$VER multiverse \
+    echo deb http://repo.mongodb.org/apt/ubuntu focal/$PACK/$VER multiverse \
     > /etc/apt/sources.list.d/mongodb-org.list
   become: yes
 
